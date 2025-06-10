@@ -1,13 +1,15 @@
 h1, h2, h3 {
-    font-family: Georgia, serif;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 100%;
-    background-color:
+    background-color: #ffdddd;
     line-height: 1.5;
-    line-width: 30em;
+    max-width: 30em;
+    margin: 0 auto;
 }
 
 p {
@@ -19,9 +21,16 @@ iframe {
 }
 
 section {
-    background-color: 
+    background-color: #ff9a9a;
 }
 
 footer {
-    background color:
+    background-color: #ffa4a4;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
