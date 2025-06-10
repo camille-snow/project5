@@ -1,0 +1,27 @@
+h1, h2, h3 {
+    font-family: Georgia, serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color:
+    line-height: 1.5;
+    line-width: 30em;
+}
+
+p {
+    text-align: left; /* ragged right */
+}
+
+iframe {
+    max-width: 100%;
+}
+
+section {
+    background-color: 
+}
+
+footer {
+    background color:
+}
