@@ -10,6 +10,8 @@ body {
     line-height: 1.5;
     max-width: 30em;
     margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
 }
 
 p {
@@ -20,17 +22,26 @@ iframe {
     max-width: 100%;
 }
 
+header {
+    background-color: #ff9e91;
+    color: #b31000;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #b31000;
+}
+
 section {
     background-color: #ff9a9a;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 footer {
-    background-color: #ffa4a4;
-}
-
-.flex-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    text-align: center;
+    padding: 1.5em 0;
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    font-size: 0.9em;
 }
